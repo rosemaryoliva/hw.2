@@ -1,0 +1,47 @@
+h1 {
+  font-family: 'Cinzel', serif;
+  text-decoration: 900px;
+  font-size: 300%;
+  color: black;
+  background-image: url(../images/rome.jpg);
+  background-size: cover;
+  padding: 20%;
+}
+
+.grid-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  padding: 10%;
+
+}
+
+h2{
+  font-family: 'Cinzel', serif;
+}
+
+
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px;
+
+  object-fit: cover;
+}
+
+p{
+display: flex;
+flex-direction: column;
+font-family: 'Josefin Sans', sans-serif;
+line-height: 120%;
+}
+
+@media screen and (max-width: 500px) {
+ 
+ .grid-2{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 450px;
+}
+}
